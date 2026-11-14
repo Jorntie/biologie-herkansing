@@ -116,3 +116,33 @@ summary { cursor: pointer; color: var(--accent); font-weight: 600; }
 .score-sub { text-align: center; color: var(--muted); margin: 0 0 8px; }
 .fouten-lijst .card { border-left: 4px solid var(--bad); }
 .fouten-lijst .ans { color: var(--good); font-weight: 600; }
+
+/* figuren */
+.figkaart { padding: 10px; }
+.fig { display: block; width: 100%; max-width: 520px; height: auto; margin: 0 auto; color: var(--text); font-family: inherit; }
+.fig text { font-size: 12px; fill: currentColor; }
+.fig text.k { font-size: 11px; }
+.fig text.b { font-weight: 700; font-size: 13px; }
+.fig .s { stroke: currentColor; stroke-width: 1.5; fill: none; }
+.fig .fa { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.5; }
+.fig .fb { fill: var(--bad-soft); stroke: var(--bad); stroke-width: 1.5; }
+.fig .fl { fill: var(--line); stroke: var(--muted); stroke-width: 1; }
+.fig .nb { fill: var(--text); }
+.fig text.nt { fill: var(--card); font-weight: 700; font-size: 11px; }
+.fig .wand { fill: none; stroke: #7a9a4e; stroke-width: 5; }
+.fig .vac { fill: #8cc4ea; fill-opacity: .55; stroke: #4a90c2; stroke-width: 1; }
+.fig .kern { fill: #a98fd0; stroke: #6d54a0; stroke-width: 1; }
+.fig .chl { fill: #43a047; }
+.fig .mit { fill: #e8943a; }
+.fig .mye { fill: #e6c463; stroke: #b0902e; stroke-width: 1; }
+.fig .dot { fill: currentColor; }
+.fig .grijs { fill: var(--muted); fill-opacity: .35; }
+.fig .w { stroke: #2f80c9; color: #2f80c9; stroke-width: 2; }
+.fig .acc { stroke: var(--accent); color: var(--accent); stroke-width: 2; }
+.fig .rood { stroke: var(--bad); color: var(--bad); stroke-width: 2; }
+.fig .curve { stroke: var(--accent); stroke-width: 2.5; }
+.fig .curve2 { stroke: var(--bad); stroke-width: 2.5; fill: none; }
+.fig .stip { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 5 4; }
+.fig .dik2 { stroke-width: 3; }
+.fig .act { stroke-width: 1.5; }
+.fig .myo { stroke: var(--accent); stroke-width: 6; stroke-linecap: round; }

@@ -22,5 +22,6 @@ alleen in de browser op het eigen apparaat bewaard.
 
 ## Inhoud aanpassen
 
-De leerstof staat in `data-1.js`, `data-5.js` en `data-8.js`. Bij elke vraag is het
+De leerstof staat in `data-1.js`, `data-5.js` en `data-8.js`. De tekeningen en grafieken staan in
+`figs.js`; `data-visueel.js` koppelt ze aan de basisstoffen en bevat de vragen bij een figuur. Bij elke vraag is het
 eerste antwoord het goede; de app husselt de volgorde.

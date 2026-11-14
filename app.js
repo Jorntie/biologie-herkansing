@@ -95,6 +95,7 @@
       <h1>${bi + 1}. ${esc(b.titel)}</h1>
       <h2>Kern</h2>
       <div class="card"><ul class="kern">${b.kern.map((k) => `<li>${esc(k)}</li>`).join("")}</ul></div>
+      ${(b.fig || []).length ? `<h2>In beeld</h2>${b.fig.map((f) => `<div class="card figkaart">${FIG(f)}</div>`).join("")}` : ""}
       <h2>Begrippen</h2>
       <div class="card"><dl class="begrippen">${b.begrippen.map(([term, def]) => `<dt>${esc(term)}</dt><dd>${esc(def)}</dd>`).join("")}</dl></div>
       <h2>Inzichtvraag</h2>
@@ -166,6 +167,7 @@
         <div class="progress-line"><span>${esc(titel)}</span><span>Vraag ${i + 1}/${lijst.length}</span></div>
         ${bar(i, lijst.length)}
         <div class="meta" style="margin-top:14px;color:var(--muted);font-size:14px">Thema ${x.t.id} · ${esc(x.b.titel)}</div>
+        ${x.v.fig ? `<div class="card figkaart">${FIG(x.v.fig, true)}</div>` : ""}
         <div class="vraag">${esc(x.v.q)}</div>
         <div id="opts">${opties.map((o, n) => `<button class="opt" data-n="${n}">${esc(o)}</button>`).join("")}</div>
         <div id="na"></div>`;
